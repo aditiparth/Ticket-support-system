@@ -67,4 +67,4 @@ ticketSchema.pre('save', async function(next) {
   next();
 });
 
-module.exports = mongoose.model('Ticket', ticketSchema);
+module.exports = mongoose.model('ticket', ticketSchema);
